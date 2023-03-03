@@ -1,5 +1,5 @@
 body{
-font-size: 10px;    
+   
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #A1CEB7;
 }
@@ -50,7 +50,7 @@ font-size: 22px;
 
   a:hover{
      text-transform: capitalize;
-     font-size: 24px;
+     font-size: 16px;
      color: #69bd0e;
      text-shadow: 2px 2px 2px black;
 }

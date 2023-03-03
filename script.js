@@ -6,7 +6,7 @@ if (num<=0 || num>=100  ){
     alert("Wrong Percentage ")
 }else if (num>=80){
     alert("Your Grade is A+1 :  "   +
-       "Congratulations Are your very good student")
+       "Congratulations  you are  very good student")
 }else if (num>=70){
     alert("Your percentage is A")
 } else if (num>=60){

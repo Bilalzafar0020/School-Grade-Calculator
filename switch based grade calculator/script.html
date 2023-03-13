@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to home</title>
+    <link href="./style2.css" rel="stylesheet">
+   
+</head>
+<body>
+
+<script>
+    
+
+  let percent=prompt("Enter your percentage");
+
+  let numType=Number(percent);
+
+  switch (true){
+
+
+    
+case numType<=0 || numType >=100 :
+    alert("Wrong percentage");
+    break;
+    
+    case numType >= 80 :
+        alert("Your percentage is A+1 : " + "Congratulations");
+        break;
+
+        case numType >=70:
+            alert("Your percentage is A");
+            break;
+
+      case numType >= 60:
+        alert("Your percentage is B");
+        break;
+
+ 
+case numType >=50:
+alert("Your percentage is C :  " + "You should do hard work on your studies");
+
+break;
+
+case numType >=40:
+alert("Your percentage is D:  " + "Not good at all :  " + "Please Focus on studies");
+break;
+
+
+case numType >=30:
+alert("Your percentage is E :  "  + " I am very angry on you ");
+break;
+
+  default :
+  alert("Sorry You are fail  :  " + "Sham on You ");
+  };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+    <div>
+        <button><a href="./index.html">Home</a></button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+
+div button{
+    margin-left: 600px;
+    margin-top: 200px;
+    width: 10vw;
+    height: 5vh;
+    background-color:rgb(47, 188, 45) ;
+}
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 17px;
+};
+
+
+
+@media screen and (max-width:1024px) and (min-width:300px) {
+    
+ body{
+        margin-left:50px;
+    }
+}
